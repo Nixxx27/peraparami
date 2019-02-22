@@ -98,6 +98,7 @@
                 <!-- /.sidebar-menu -->
             </section>
             <!-- /.sidebar -->
+            
         </aside>
         @endif
 
@@ -105,6 +106,7 @@
         <div class="content-wrapper">
             @if(config('adminlte.layout') == 'top-nav')
             <div class="container">
+                
             @endif
 
             <!-- Content Header (Page header) -->
@@ -123,9 +125,19 @@
             </div>
             <!-- /.container -->
             @endif
+            <div class="row">
+                    <div class="col-md-offset-8 col-md-4">
+                            <hr style="border: 2px solid #008d4c; background: #A9A9A9">
+                            <span class="pull-right" style="margin-bottom: 10px; margin-right: 10px">
+                            HANDCRAFTED DEVELOP AND DESIGN BY: <a href="http://www.nikkozabala.com" target="_blank">
+                             NIKKO ZABALA
+                            </span>  
+                    </div>
+                </div>
         </div>
         <!-- /.content-wrapper -->
-
+ 
+  
     </div>
     <!-- ./wrapper -->
 @stop

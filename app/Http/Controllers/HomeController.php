@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\savings;
 class HomeController extends Controller
 {
     /**
@@ -23,6 +23,10 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $savings = savings::get();
+        $last_entered_savings = savings::latest()->first();
+        $total_savings = $savings->sum('amount');
+        $nikko = "ako si nikko";
+        return view('home',compact('total_savings','last_entered_savings'));
     }
 }

@@ -108,61 +108,88 @@ return [
     */
 
     'menu' => [
-        'MAIN NAVIGATION',
-        [
-            'text' => 'Blog',
-            'url'  => 'admin/blog',
-            'can'  => 'manage-blog',
-        ],
-        [
-            'text'        => 'Home',
-            'url'         => 'home',
-            'icon'        => 'home',
+    //     'MAIN NAVIGATION',
+    //     [
+    //         'text' => 'Blog',
+    //         'url'  => 'admin/blog',
+    //         'can'  => 'manage-blog',
+    //     ],
+    //     [
+    //         'text'        => 'Home',
+    //         'url'         => 'home',
+    //         'icon'        => 'home',
             // 'label'       => 1,
-            'label_color' => 'success',
-        ],
+            // 'label_color' => 'success',
+        // ],
+        // 'ACCOUNTS',
+        // [
+        //     'text'    => 'SAVINGS',
+        //     'icon'    => 'money',
+        //     'submenu' => [
+        //         [
+        //             'text' => 'GROUP SAVINGS',
+        //             'icon'    => 'chevron-right',
+        //             'url'  => 'Your ',
+        //         ],
+        //         [
+        //             'text' => 'MY SAVINGS',
+        //             'icon'    => 'chevron-right',
+        //             'url'  => 'Your ',
+        //         ],
+        //     ]
+        // ],
 
-        'SAVINGS',
-        [
-            'text'        => 'Overall Savings',
-            'url'         => 'loans',
-            'icon'        => 'money',
-            // 'label'       => 1,
-            'label_color' => 'success',
-        ],
+        // [
+        //     'text'    => 'LOANS',
+        //     'icon'    => 'list-ol',
+        //     'submenu' => [
+        //         [
+        //             'text' => 'OVERALL LOANS',
+        //             'icon'    => 'chevron-right',
+        //             'url'  => 'Your ',
+        //         ],
+        //         [
+        //             'text' => 'MY LOANS',
+        //             'icon'    => 'chevron-right',
+        //             'url'  => 'Your ',
+        //         ],
+        //     ]
+        // ],
 
-        [
-            'text'        => 'My Savings',
-            'url'         => 'loans',
-            'icon'        => 'briefcase',
-            // 'label'       => 1,
-            'label_color' => 'success',
-        ],
+     
 
-        'LOANS',
-        [
-            'text'        => 'All Loans',
-            'url'         => 'loans',
-            'icon'        => 'list-ol',
-            // 'label'       => 1,
-            'label_color' => 'success',
-        ],
+        // [
+        //     'text'        => 'My Savings',
+        //     'url'         => 'loans',
+        //     'icon'        => 'briefcase',
+        //     // 'label'       => 1,
+        //     'label_color' => 'success',
+        // ],
 
-        [
-            'text'        => 'My Loan',
-            'url'         => 'loan/1',
-            'icon'        => 'credit-card-alt',
-            // 'label'       => 1,
-            'label_color' => 'success',
-        ],
+        // 'LOANS',
+        // [
+        //     'text'        => 'All Loans',
+        //     'url'         => 'loans',
+        //     'icon'        => 'list-ol',
+        //     // 'label'       => 1,
+        //     'label_color' => 'success',
+        // ],
 
-        [
-            'text'        => 'Apply for Loan',
-            'url'         => 'loan/1',
-            'icon'        => 'plus-square',
-            // 'label'       => 1,
-            'label_color' => 'success',
-        ],
+        // [
+        //     'text'        => 'My Loan',
+        //     'url'         => 'loan/1',
+        //     'icon'        => 'credit-card-alt',
+        //     // 'label'       => 1,
+        //     'label_color' => 'success',
+        // ],
+
+        // [
+        //     'text'        => 'Apply for Loan',
+        //     'url'         => 'loan/1',
+        //     'icon'        => 'plus-square',
+        //     // 'label'       => 1,
+        //     'label_color' => 'success',
+        // ],
         // [
         //     'text'        => 'Pages',
         //     'url'         => 'admin/pageas',
@@ -170,17 +197,18 @@ return [
         //     'label'       => 4,
         //     'label_color' => 'success',
         // ],
-        'ACCOUNT SETTINGS',
+        // 'ACCOUNT SETTINGS',
         // [
         //     'text' => 'Profile',
         //     'url'  => 'admin/settings',
         //     'icon' => 'user',
         // ],
-        [
-            'text' => 'Change Password',
-            'url'  => 'admin/settings',
-            'icon' => 'lock',
-        ],
+        // [
+        //     'text' => 'CHANGE PASSWORD',
+        //     'url'  => 'admin/settings',
+        //     'icon' => 'lock',
+        // ],
+         
         // [
         //     'text'    => 'Multilevel',
         //     'icon'    => 'share',

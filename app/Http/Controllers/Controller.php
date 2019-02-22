@@ -7,7 +7,19 @@ use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 
+use App\Helpers\Peraparamilogs;
+use App\Helpers\PeraparamiTotals;
+
 class Controller extends BaseController
 {
-    use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+   use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
+
+   public $_Peraparamilogs;
+
+    public function __construct()
+    {
+        $this->_Peraparamilogs = new Peraparamilogs;
+        $this->_PeraparamiTotals = new PeraparamiTotals;
+    }
+
 }
